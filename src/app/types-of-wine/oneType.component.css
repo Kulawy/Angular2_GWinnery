@@ -1,0 +1,22 @@
+.imgType{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: alpha(opacity=100);
+    opacity: 1;
+  }
+  .imgType:hover{
+    filter: alpha(opacity=70);
+    opacity: 0.7;
+  }
+  .titleTypeText{
+    color: white;
+    position:absolute;
+    font-size: 40pt;
+    margin:0;
+}
+

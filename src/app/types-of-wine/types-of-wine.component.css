@@ -1,0 +1,15 @@
+h2 {
+    text-align: center;
+    font-size: 40pt;
+    color: green;
+}
+#typesOfWine{
+    padding-top:15vh;
+    padding-bottom:2vh;
+}
+
+.fullSc{
+    background-color: black;
+    height: 90vh;
+    width: auto;
+}

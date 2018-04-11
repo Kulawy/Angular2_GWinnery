@@ -1,0 +1,59 @@
+
+#titleG .jumbotron   {
+    display: flex;
+    align-items: flex-end;
+    background-image: url('../../assets/images/winery_grapes.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    height: 100vh;
+    text-shadow: 0.25px 0.25px 0.25px #000000;
+    
+  }
+
+  .container{
+    text-align: center;
+    margin-bottom: 5vh;
+  }
+  
+  .jumbotron h2 {
+    font-size: 60px;
+    font-weight: 600;
+    margin: 0;
+    color: #fff;
+  }
+  
+  .jumbotron h3 {
+    margin: 0 0 20px;
+    color: #fff;
+  }
+
+  .btn.btn-primary {
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 2px;
+    border: 0px;
+    color: #d24760;
+    text-shadow: none;
+    background-color: #ffffff;
+    transition: background-color 500ms linear;   /* animacja przycisku/efekt zmiany koloru  */
+  }
+  
+  .btn.btn-primary:hover {
+    color: #ffffff;
+    background-color: #d24760;
+    transition: background-color 50ms linear;
+  }
+
+  .btn.btn-primary:active {
+    color: #ffffff;
+    background-color: #6e2633;
+  }
+
+  .btn {
+    background-color: #E8DFE0;
+    color: #ffffff;
+    margin: 0 0 0px;
+  }
+  

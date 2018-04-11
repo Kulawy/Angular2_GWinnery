@@ -1,0 +1,30 @@
+<div class="myFooterConainer">
+  <div class="container">
+    <div class="row">
+      <div class="column">
+        <h5>Name: {{informations?.name}}</h5>
+        <h5>Phone: {{informations?.phone}}</h5>
+        <h5>Adress: {{informations?.aadress}}</h5>
+        <h5>e-mail: {{informations?.mail}}</h5>
+        <hr/>
+        <div class="row">
+          <div class="col-sm-7">
+            <h5>Social Media: </h5>
+          </div>
+          <div class="col-sm-5">
+            <button class=".btn  facebookButton socialMediaButton"></button>
+            <button class=".btn  instaButton socialMediaButton"></button>
+            <button class=".btn  skypeButton socialMediaButton"></button>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div id="map">
+          <agm-map [latitude]="lat" [longitude]="lng" [zoom]="10" [mapTypeId]="'hybrid'"> <!-- 'hybrid'|'roadmap'|'satellite'|'terrain'-->
+            <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+          </agm-map>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

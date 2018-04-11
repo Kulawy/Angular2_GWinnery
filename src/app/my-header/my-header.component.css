@@ -1,0 +1,87 @@
+.backHeader{
+  background-color: white;
+  border: 1px solid black;
+  position: sticky;
+  position: -webkit-sticky;
+  z-index: 99;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+  
+h1 {
+  font-weight: 700;
+  margin: 0; 
+}
+
+nav{
+  display: flex;
+  justify-content: flex-end;
+  vertical-align: middle;
+}
+  
+a {
+  float: right;
+  text-align: center;
+  padding:20px 10px;
+  margin: 0;
+  font-weight:600 ;
+  font-size: 16px;
+  overflow: hidden;
+}
+
+.myB.btn-primary {
+	border-radius: 2px;
+	border: 0px;
+	color: #d24760;
+	text-shadow: none;
+	background-color: #ffffff;
+	transition: background-color 500ms linear;
+}
+
+.myB.btn-primary:hover {
+  color: #ffffff;
+  background-color: #d24760;
+  text-decoration:none;
+} 
+
+
+.sticky{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 30px;
+} 
+
+
+#startBtn{
+  display: none;
+  position: fixed;
+  top: 2vh;
+  left: 10vw;
+  z-index: 100;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 100%;
+  font-weight: bold;
+  font-size: 16pt;
+  height: 18vh;
+  width: 18vh;
+  background-color: white;
+  background-image: url('../../assets/images/Logo_winn.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 82%;
+
+}
+
+#startBtn:hover{
+  background-color: rgb(43, 21, 28);
+}

@@ -1,0 +1,25 @@
+<div class="container" id="typesOfWine">
+  <!-- <h2> Types of Wine </h2> -->
+
+  <div class="row" *ngIf="!isBigScrean">
+    <div *ngFor="let wineType of wineTypesOneRow" class="col-xs-6">
+      <app-one-type [wineType]="wineType" (componentClick)="onComponentClick($event)">
+
+      </app-one-type>
+    </div>
+  </div>
+  <div class="row" *ngIf="!isBigScrean">
+    <div *ngFor="let wineType of wineTypesSecondRow" class="col-xs-6">
+      <app-one-type [wineType]="wineType" (componentClick)="onComponentClick($event)">
+
+      </app-one-type>
+    </div>
+  </div>
+  <div class="container" *ngIf="isBigScrean">
+    <app-one-type [wineType]="bigScreanPicture" (componentClick)="onComponentClick($event)"></app-one-type>
+
+  </div>
+
+</div>
+
+<!-- *ngIf="wineType.bigObj === true" -->

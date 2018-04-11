@@ -1,1 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
+
+/*{
+    border: 1px solid black;
+  }*/
+
+  body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+#aboutBody {
+	height: 620pt;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	
+}
+
+#aboutBody p {
+	margin: 50px;
+	padding: 20px;
+	text-align: left;
+	color:white;
+	font-weight:400;
+	opacity: 1 ;
+	background: rgba(0, 0, 0, 0.4);
+	
+}
+
+h4 {
+	margin: 10px;
+	color: #abc529;
+	font-weight: 400px;
+	font-size: 4em;
+  }

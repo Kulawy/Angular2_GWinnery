@@ -1,0 +1,68 @@
+.myFooterConainer{
+    background-color: lightgray;
+    border-top-style: groove;
+    min-height: 100px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+}
+
+h5{
+    font-size: 14pt;
+    color: darkgray;
+}
+
+.socialMediaButton{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+
+}
+
+.socialMediaButton:hover{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+
+.facebookButton{
+    background-image: url("../../assets/images/faceG.png");
+}
+.facebookButton:hover{
+    background-image: url("../../assets/images/faceC.png");
+    background-color: aliceblue;
+}
+
+.instaButton{
+    background-image: url("../../assets/images/instaG.png");
+}
+.instaButton:hover{
+    background-image: url("../../assets/images/instaC.png");
+    background-color: aliceblue;
+}
+
+.skypeButton{
+    background-image: url("../../assets/images/skypeG.png");
+}
+.skypeButton:hover{
+    background-image: url("../../assets/images/skypeC.png");
+    background-color: aliceblue;
+}
+
+.column{
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+}
+
+agm-map{
+    width: 100%;
+    height: 300px;
+}
